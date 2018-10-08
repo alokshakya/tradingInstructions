@@ -137,6 +137,18 @@ This service's `getBars(symbolInfo, resolution, from, to, first, limit):Observab
 
 ### 6. Update `src/app/components/trading-view-chart/trading-view-chart.ts` to implement `tradingViewChart`
 
+## **Note:** Comment importing `socket.service` and its usage in code untill socket service is not created and updated.
+Following lines will be commented
+
+Line 16: `import { SocketService } from '../../services/socket.service';`
+
+Line 94 Update constructor `constructor(public tradeHistory: TradeHistoryService) { }`
+
+Line 229 `this.socketService.subscribeBars(symbolInfo, resolution, onRealtimeCallback, subscribeUID, onResetCacheNeededCallback,history)`
+
+Line 234 `this.socketService.unsubscribeBars(subscriberUID)`
+
+
 This file contains the main code for implementing charting library's `JS API`. Now Code
 
 ```typescript
