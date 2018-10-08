@@ -870,7 +870,7 @@ subscribeBars: (symbolInfo, resolution, onRealtimeCallback, subscribeUID, onRese
 
 Similarly `unsubscribeBars(uid)` is also being used in `trading-view-chart.ts`'s Datafeed method `unsubscribeBars()` .
 
-Now implementing all these your chart will be updating live from socket.
+Now after implementing all these your chart will be updating live from socket.
 
-# ALL DONE! 
+# ALL DONE! :+1:
 
