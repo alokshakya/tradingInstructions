@@ -693,5 +693,11 @@ This Datafeed should be called on `ngOnInit()`. So for calling this I have used 
 
 
 
-After updating all these files your angular project will be showing tradingViewChart of BTC/USD from COINBASE exchange. :+1:
+After updating all these files your angular project will be showing tradingViewChart of BTC/USD from COINBASE exchange :+1:
+
+### Final view after all the above code :+1:
+
+![tradingViewChart](https://user-images.githubusercontent.com/23319830/46637085-375a9f00-cb78-11e8-96c2-d1ad7a727119.png)
+
+## Now live update of chart left from sockets `API`.
 
